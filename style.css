@@ -269,7 +269,6 @@ header {
       hsl(192deg 37% 48% / 0.9)
     ),
     url("assets/desktop/image-footer.jpg");
-  /* background: linear-gradient(var(--primary-dark), var(--primary-dark)); */
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white);
@@ -379,6 +378,11 @@ header {
     gap: revert;
     padding: 92px 24px 72px;
     text-align: center;
+    background: linear-gradient(
+        hsl(192deg 37% 48% / 0.9),
+        hsl(192deg 37% 48% / 0.9)
+      ),
+      url("assets/tablet/image-footer.jpg");
   }
 
   .footer h2 {
@@ -418,6 +422,16 @@ header {
   }
 
   /* FOOTER SECTION */
+  .footer {
+    background: linear-gradient(
+        hsl(192deg 37% 48% / 0.9),
+        hsl(192deg 37% 48% / 0.9)
+      ),
+      url("assets/mobile/image-footer.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
   .footer h2 {
     margin-bottom: 24px;
   }
